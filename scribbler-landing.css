@@ -58,6 +58,11 @@ nav {
   margin-bottom: 0;
 }
 
+.feature__item .section__title2 {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
 .feature__item p {
   margin-top: 0.5rem;
 }

@@ -33,7 +33,6 @@
     </div>
     <div class="wrapper">
       <div class="installation">
-        <h3 class="section__title">Installation</h3>
         <div class="tab__container">
           <ul class="tab__menu">
             <li class="tab active" data-tab="mac">Engl</li>
@@ -41,11 +40,14 @@
             <li class="tab" data-tab="win">De</li>
           </ul>
           <pre class="nohighlight code">
-            <code class="tab__pane active mac">$  brew install scribbler</code>
-            <code class="tab__pane linux">$  apt-get install scribbler</code>
-            <code class="tab__pane win">$  gem install scribbler</code>
+            <code class="tab__pane active mac">$ Welcome</code>
+            <code class="tab__pane linux">$  Benvenuto</code>
+            <code class="tab__pane win">$  Willkommen</code>
           </pre>
         </div>
+      </div>
+      <div>
+      <h3 class="section__title">Skills:</h3>
       </div>
       <div class="feature">
         <div class="feature__item">
@@ -66,8 +68,9 @@
 
         </div>
         <div class="feature__item">
-          <h3 class="section__title">DevOps</h3>
+          <h3 class="section__title">DevOps:</h3>
           <p> • Kubernetes <br>
+            • Docker <br>
           • Ansible  <br>
           • Jenkins  <br>
           • Git <br>
@@ -102,6 +105,14 @@
 • Basket <br>
 • Artificial Intelligence <br>
  </p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Other Experiences:</h3>
+          <p>
+• Entrepreneurship Club <br>
+• Market Analysis for the start-up libraway <br>
+• Winner of concourse “The time of history” <br>
+• Scout </p>
         </div>
       </div>
       <div class="keybinding">
@@ -173,7 +184,22 @@
         </div>
       </div>
     </div>
-    <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
+    <footer class="footer"> 
+      <div id="block_container">
+      <div id=block1>
+      Attilio Gualandi' website @
+      </div>
+      <div id="current_date"> </p>
+        <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = year ;
+        </script>
+    </div>
+    </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="scribbler.js"></script>

@@ -13,6 +13,11 @@
   --code-bg-color: #F0E8E8;
 }
 
+#block_container {
+    display: flex;
+    justify-content: center;
+}
+
 /* normalized */
 html, body {
   padding: 0;
@@ -45,6 +50,10 @@ hr {
 
 /* typography */
 .section__title {
+  color: var(--primary-color);
+}
+
+.section__title2 {
   color: var(--primary-color);
 }
 
