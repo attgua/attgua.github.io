@@ -12,8 +12,8 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `echo Welcome to my website!
-            Welcome but sorry, this site is actually in progress... see you soon.
+  var txt = `echo "Welcome to my website!"
+            Welcome to my website! Drop me a message here: attilio.gualandi@gmail.com or on Linkedin if you need something! ;)
             `;
   var speed = 60;
 
